@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+
+  font-family: Cambria, serif, sans-serif;
+  background-color: var(--secondary-color-);
+}
+:root {
+  --primary-color: #3173ad;
+  --button-border-color: #dfa01f;
+  --secondary-color-: #daf3ff;
+  --active-color-: #6ea7e5;
+}
+header {
+  background-color: var(--primary-color);
+  height: 8vh;
+  color: whitesmoke;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+}
+ul {
+  list-style-type: none;
+}
+.aboutUs {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.about {
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 100%;
+  padding: 0.5rem 2rem;
+}
+.walletSvg {
+  width: 55%;
+}
+button {
+  height: 40px;
+  width: 75%;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  background-color: var(--secondary-color-);
+
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 1.5rem 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--active-color-);
+  font-size: 1.5rem;
+}
+h2 {
+  text-align: left;
+  width: 100%;
+  font-size: 2.9rem;
+  font-weight: bold;
+  margin: 1.5rem 1rem;
+}
+.about p {
+  font-size: 1.3rem;
+}
