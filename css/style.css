@@ -5,7 +5,8 @@
 body {
   box-sizing: border-box;
   font-size: 16px;
-
+  overflow-x: hidden;
+  overflow-y: hidden;
   font-family: Cambria, serif, sans-serif;
   background-color: var(--secondary-color-);
 }
@@ -16,9 +17,9 @@ body {
   --active-color-: #6ea7e5;
 }
 header {
-  background-color: var(--primary-color);
+  padding: 0 2rem;
   height: 8vh;
-  color: whitesmoke;
+  color: var(--primary-color);
   justify-content: space-between;
   align-items: center;
 }
@@ -26,12 +27,26 @@ header {
   display: flex;
   flex-flow: row nowrap;
 }
-ul {
+ul li {
   list-style-type: none;
+  width: 140px;
+}
+ul li a {
+  text-decoration: none;
+  display: block;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 1.05rem;
+  padding: 0.5rem;
+  font-weight: 550;
+}
+li:nth-child(5) {
+  border: 1px solid var(--button-border-color);
+  border-radius: 0.5rem;
 }
 .aboutUs {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   align-items: center;
   justify-content: space-between;
 }
@@ -46,17 +61,21 @@ ul {
 .walletSvg {
   width: 55%;
 }
+img {
+  height: 600px;
+  width: 750px;
+}
 button {
   height: 40px;
-  width: 75%;
+  width: 60%;
   border: 1px solid var(--primary-color);
   border-radius: 0.5rem;
   background-color: var(--secondary-color-);
-
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin: 1.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
   cursor: pointer;
+  align-self: flex-start;
 }
 button:hover {
   background-color: var(--active-color-);
@@ -69,6 +88,14 @@ h2 {
   font-weight: bold;
   margin: 1.5rem 1rem;
 }
+h3 {
+  font-size: 1.8rem;
+}
 .about p {
   font-size: 1.3rem;
+}
+header img {
+  position: absolute;
+  left: 10px;
+  z-index: -1;
 }
