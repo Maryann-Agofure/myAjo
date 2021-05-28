@@ -24,7 +24,7 @@
         </nav>
       </header>
       <div>
-        <div class="aboutUs flex">
+        <div class="aboutUs flex" id="about">
           <div class="about flex">
             <h2>A Lending service provider you can trust</h2>
             <p>
@@ -37,33 +37,180 @@
             <img src="./images/Credit card-bro.svg" alt="wallets" />
           </div>
         </div>
-        <section>
-          <h4>Here's what we do</h4>
-          <div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <img src="./images/Plain credit card-bro.png" alt="" class="bodySvg" />
+        <section class="services" id="services">
+          <h4>Here's what we do...and we love it</h4>
+
+          <p>Funding your dreams in a couple of minutes and clicks</p>
+          <div class="flex">
+            <div class="ourServices">
+              <h4>Instant Lending</h4>
+              <i class="fas fa-money-check-alt"></i>
+              <p>
+                With myAjo, access to funding is within your reach, in a matter
+                of minutes, and no collateral
+              </p>
+            </div>
+            <div class="ourServices">
+              <h4>Crowdfunding Platform</h4>
+              <i class="fas fa-hand-holding-heart"></i>
+              <p>
+                Goodwill never goes out of style. Our crowdfunding platform lets
+                you raise cash for your needs.
+              </p>
+            </div>
+            <div class="ourServices">
+              <h4>Advisory and Consulting</h4>
+              <i class="fas fa-people-carry"></i>
+              <p>
+                Optimize results by consulting with our team of experts on the
+                plan that best suits your needs
+              </p>
+            </div>
           </div>
         </section>
+
         <div class="benefits flex">
-          <h3>Flexible payment plans tailored to your budget</h3>
-          <div>
+          <div class="benefits1 flex">
+            <div>
+              <img src="./images/Credit card-amico.svg" alt="card" />
+            </div>
+            <div>
+              <h3>
+                <span class="circle-highlight">Flexible</span> payment plans
+                tailored to your budget
+              </h3>
+              <p>
+                Choose a payment plan that works best for you. Its loan payment
+                made easy and convenient
+              </p>
+              <button>See plans</button>
+            </div>
             <img
-              src="./images/undraw_Plain_credit_card_re_c07w.svg"
-              alt="card"
+              src="./images/Plain credit card-bro.png"
+              alt=""
+              class="servicesSvg"
             />
           </div>
+          <div class="benefits2 flex">
+            <div>
+              <h3>
+                <span class="circle-highlight">Zero</span> collateral required
+              </h3>
+              <p>
+                No fear and loss of your property. Our loans come at no
+                collateral cost.
+              </p>
+              <button>Read our terms</button>
+            </div>
+
+            <div class="flex">
+              <img src="./images/Insurance-bro.svg" alt="card" />
+            </div>
+          </div>
         </div>
-        <div>
-          <h3>Making that side hustle dream into a reality</h3>
-          <div></div>
-        </div>
-        <div>
-          <h3>They trust us...You should too</h3>
-          <div></div>
+        <section class="partnerSection flex" id="partners">
+          <h3>Meet some of our partners</h3>
+          <div class="partnersList"></div>
+          <button>Become a Partner</button>
+        </section>
+        <div class="review-section">
+          <h3>They trust us...you should too</h3>
+          <div class="reviews flex">
+            <div class="reviewspart flex">
+              <p>
+                myAjo really come through for me. I was skeptical at first but
+                asked questions and clared my doubts. I'll be grateful to their
+                help starting my bakery
+              </p>
+              <div class="flex bio-review">
+                <img
+                  src="./images/alex-starnes-PK_t0Lrh7MM-unsplash.jpg"
+                  alt="Judith Zing"
+                  class="reviewImage"
+                />
+                <div>
+                  <h4>Judith Zing</h4>
+                  <small>Owner, indulge treats</small>
+                </div>
+              </div>
+            </div>
+            <div class="reviewspart flex">
+              <p>
+                The one thing that really stood out for me was their customer
+                service and availability. All my questions were answered in no
+                time. I highly recommend
+              </p>
+              <div class="flex bio-review">
+                <img
+                  src="./images/zac-wolff-L2e2NVV9ul4-unsplash.jpg"
+                  alt="Chuba Kings"
+                  class="reviewImage"
+                />
+                <div>
+                  <h4>Chuba Kings</h4>
+                  <small>Creative lead and Owner, O'Cuttings</small>
+                </div>
+              </div>
+            </div>
+            <div class="reviewspart flex">
+              <p>
+                I am myAjo's biggest marketer. Because, why not? Most loans had
+                crazy interest rates and I was almost giving up till a friend
+                recommended them. Signed up and that was it.
+              </p>
+              <div class="flex bio-review">
+                <img
+                  src="./images/eye-for-ebony-aZzXKGcyWqk-unsplash.jpg"
+                  alt="Ann Fure"
+                  class="reviewImage"
+                />
+                <div>
+                  <h4>Ann Fure</h4>
+                  <small>Cofounder, Rubicss.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <footer></footer>
+      <footer>
+        <div class="footer-form-nav flex">
+          <form action="submit">
+            <h4>Ask us anything!</h4>
+            <input type="text" placeholder="Name..." />
+            <input type="text" placeholder="Your email" />
+            <input type="text" name="text" placeholder="Ask away" />
+            <button>You'll hear from us</button>
+          </form>
+          <nav>
+            <ul class="flex footer-nav">
+              <li><a href="#about">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#partners">Our Partners</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#onboard">Start process</a></li>
+            </ul>
+          </nav>
+          <div class="flex socials">
+            <h4>Follow us:</h4>
+            <ul class="flex social-media">
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-facebook"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
