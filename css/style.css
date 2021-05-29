@@ -173,7 +173,6 @@ footer h4 {
   width: 80%;
   font-size: 2rem;
   padding: 1rem;
-  letter-spacing: 0.1rem;
 }
 .benefits1 {
   text-align: right;
@@ -372,4 +371,133 @@ footer h4 {
 form:hover {
   transition: all transform 0.8s;
   transform: translateY(-20px, 20px);
+}
+@media only screen and (max-width: 780px) {
+  header nav {
+    display: none;
+  }
+  .review-section {
+    height: auto;
+  }
+  .reviews {
+    flex-flow: column nowrap;
+    text-align: left;
+  }
+  .aboutUs,
+  .reviewspart {
+    flex-flow: column nowrap;
+    text-align: left;
+    height: auto;
+    width: 100vw;
+  }
+  .reviewspart {
+    width: 80%;
+  }
+  .about {
+    width: 100%;
+    text-align: center;
+  }
+  .aboutUs h2 {
+    width: 85%;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  .aboutUs p {
+    width: 82%;
+    font-size: 1.2rem;
+  }
+  .benefits1,
+  .benefits2 {
+    text-align: center;
+  }
+  .services-div,
+  .benefits1,
+  .benefits2 {
+    flex-flow: column nowrap;
+    height: auto;
+    margin: 2rem 0;
+  }
+  .benefits1 h3,
+  .benefits2 h3 {
+    text-align: center;
+    width: 80%;
+    font-size: 2rem;
+  }
+  .benefits1 p,
+  .benefits2 p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  img {
+    margin: 0 auto;
+    overflow-y: scroll;
+
+    height: 300px;
+    width: 400px;
+  }
+  .walletSvg {
+    width: 100%;
+  }
+  .services > h4 {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+  }
+  .services > p {
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+  }
+  .services {
+    width: 100vw;
+    height: auto;
+    text-align: left;
+    margin: 1rem;
+    z-index: -1;
+  }
+  .ourServices {
+    z-index: 4;
+    margin: 0.3rem 0;
+    width: 90%;
+    height: auto;
+    align-items: flex-start;
+    height: auto;
+    position: relative;
+    text-align: left;
+  }
+  .ourServices p {
+    width: 75%;
+  }
+  .partnerSection > button {
+    width: 80%;
+  }
+  footer {
+    height: auto;
+  }
+  .footer-form-nav {
+    flex-flow: column nowrap;
+  }
+  form {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -130px;
+  }
+  footer button {
+    width: 80%;
+  }
+  .social-media {
+    flex-flow: row nowrap;
+    text-align: center;
+  }
+  footer i {
+    font-size: 20px;
+  }
+  .footer-nav {
+    margin: 1rem 0;
+  }
 }
