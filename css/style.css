@@ -505,4 +505,9 @@ form:hover {
   .footer-nav {
     margin: 1rem 0;
   }
+  .action-button,
+  .why-us-buttons {
+    width: 80%;
+    text-align: center;
+  }
 }
