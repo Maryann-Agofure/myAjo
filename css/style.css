@@ -5,6 +5,7 @@
 body {
   box-sizing: border-box;
   height: 100%;
+  width: 100vw;
   font-size: 16px;
   overflow-x: hidden;
 
@@ -70,6 +71,10 @@ img {
   height: 600px;
   width: 750px;
 }
+.action-button {
+  width: 80%;
+  text-align: left;
+}
 button {
   height: 40px;
   width: 60%;
@@ -82,6 +87,7 @@ button {
   margin: 1.5rem 0;
   cursor: pointer;
 }
+
 button:hover {
   background-color: var(--active-color-);
   font-style: 700;
