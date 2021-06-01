@@ -20,6 +20,7 @@ body {
 header {
   padding: 0 2rem;
   height: 8vh;
+  width: 100%;
   color: var(--primary-color);
   justify-content: space-between;
   align-items: center;
@@ -28,6 +29,7 @@ header {
   display: flex;
   flex-flow: row nowrap;
 }
+
 ul li {
   list-style-type: none;
   width: 140px;
@@ -377,9 +379,19 @@ form:hover {
   transition: all transform 0.8s;
   transform: translateY(-20px, 20px);
 }
+.bar-menu {
+  display: none;
+}
+
 @media only screen and (max-width: 780px) {
   header nav {
     display: none;
+  }
+  .bar-menu {
+    display: block;
+    font-size: 30px;
+    border: none;
+    padding-right: 2rem;
   }
   .review-section {
     height: auto;
