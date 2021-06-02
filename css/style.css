@@ -382,7 +382,9 @@ form:hover {
 .bar-menu {
   display: none;
 }
-
+.menuDiv {
+  display: block;
+}
 @media only screen and (max-width: 780px) {
   header nav {
     display: none;
@@ -392,6 +394,16 @@ form:hover {
     font-size: 30px;
     border: none;
     padding-right: 2rem;
+    cursor: pointer;
+  }
+  .barDiv {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    height: auto;
+    background-color: #4079ac;
   }
   .review-section {
     height: auto;
