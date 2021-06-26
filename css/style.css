@@ -396,6 +396,9 @@ form:hover {
 }
 
 @media only screen and (max-width: 780px) {
+  body {
+    overflow-x: hidden;
+  }
   header nav {
     display: none;
   }
