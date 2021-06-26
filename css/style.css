@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
   width: 100vw;
   font-size: 16px;
-
+  overflow-x: hidden;
   font-family: Cambria, serif, sans-serif;
   background-color: var(--secondary-color-);
 }
@@ -104,7 +104,7 @@ h3 {
   font-size: 1.8rem;
 }
 .about p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 header img,
 .bodySvg,
@@ -129,9 +129,12 @@ header img,
   z-index: -1;
 }
 .services > h4 {
-  font-size: 2rem;
+  font-size: 2.1rem;
   padding: 2rem 0;
   font-weight: bold;
+}
+.services-div {
+  margin: 0 auto;
 }
 
 .ourServices {
@@ -145,9 +148,14 @@ header img,
   position: relative;
   text-align: center;
 }
+.services-catch {
+  width: 40%;
+  margin: 0 auto;
+}
+.services-catch > p {
+  font-size: 1.3rem;
 
-.services > p {
-  font-size: 1.4rem;
+  text-align: center;
 }
 i {
   padding: 1.5rem;
@@ -198,12 +206,10 @@ footer h4 {
 .benefits2 p {
   text-align: left;
 }
-.benefits button {
-  width: 50%;
+.why-us-buttons {
+  width: 80%;
 }
-.benefits1 button {
-  margin-right: 6rem;
-}
+
 .circle-highlight {
   position: relative;
 }
@@ -384,15 +390,21 @@ form:hover {
 .menuDiv {
   display: none;
 }
+.barDiv,
+.menuNavigation {
+  display: none;
+}
+
 @media only screen and (max-width: 780px) {
   header nav {
     display: none;
   }
+
   .bar-menu {
     display: block;
     font-size: 30px;
     border: none;
-    padding-right: 2rem;
+
     cursor: pointer;
   }
   .barDiv {
@@ -456,6 +468,10 @@ form:hover {
     font-size: 1rem;
     text-align: center;
   }
+  .services-catch {
+    width: 90%;
+    text-align: center;
+  }
 
   img {
     margin: 0 auto;
@@ -463,6 +479,11 @@ form:hover {
 
     height: 300px;
     width: 400px;
+  }
+  .svg-image {
+    margin: auto;
+    text-align: center;
+    padding: 0;
   }
   .walletSvg {
     width: 100%;
@@ -489,15 +510,16 @@ form:hover {
   .ourServices {
     z-index: 4;
     margin: 0.3rem 0;
-    width: 90%;
+    width: 95%;
     height: auto;
-    align-items: flex-start;
-    height: auto;
+    align-items: left;
+    padding: 2rem 0;
     position: relative;
     text-align: left;
   }
   .ourServices p {
     width: 75%;
+    font-size: 1.1rem;
   }
   .partnerSection > button {
     width: 80%;
@@ -510,7 +532,8 @@ form:hover {
   }
   form {
     margin: 0 auto;
-    width: 100%;
+    width: 95%;
+    padding: 1.2rem 0;
     height: auto;
     position: relative;
     top: -130px;
@@ -530,7 +553,7 @@ form:hover {
   }
   .action-button,
   .why-us-buttons {
-    width: 80%;
     text-align: center;
+    margin: auto;
   }
 }
