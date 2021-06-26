@@ -479,10 +479,9 @@ form:hover {
   img,
   .bodySvg {
     margin: 0 auto;
-    overflow-y: scroll;
 
     height: 300px;
-    width: 200px;
+    width: 400px;
   }
   .svg-image {
     margin: auto;
