@@ -492,6 +492,8 @@ form:hover {
 
   .walletSvg {
     width: 100%;
+    height: 300px;
+    width: 400px;
   }
   .services > h4 {
     font-size: 1.8rem;
