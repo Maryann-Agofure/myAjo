@@ -477,16 +477,13 @@ form:hover {
   }
 
   img,
-  .bodySvg {
+  .bodySvg,
+  .svg-image,
+  .no-insurance {
     margin: 0 auto;
 
     height: 300px;
     width: 400px;
-  }
-  .svg-image {
-    margin: auto;
-    text-align: center;
-    padding: 0;
   }
 
   .walletSvg {
