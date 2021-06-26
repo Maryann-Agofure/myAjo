@@ -476,7 +476,8 @@ form:hover {
     text-align: center;
   }
 
-  img {
+  img,
+  .bodySvg {
     margin: 0 auto;
     overflow-y: scroll;
 
@@ -488,6 +489,7 @@ form:hover {
     text-align: center;
     padding: 0;
   }
+
   .walletSvg {
     width: 100%;
   }
