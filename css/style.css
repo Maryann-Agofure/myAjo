@@ -3,6 +3,7 @@
   margin: 0;
 }
 body {
+  position: relative;
   box-sizing: border-box;
   width: 100vw;
   font-size: 16px;
@@ -384,16 +385,6 @@ form:hover {
   transition: all transform 0.8s;
   transform: translateY(-20px, 20px);
 }
-.bar-menu {
-  display: none;
-}
-.menuDiv {
-  display: none;
-}
-.barDiv,
-.menuNavigation {
-  display: none;
-}
 
 @media only screen and (max-width: 780px) {
   body {
@@ -413,8 +404,8 @@ form:hover {
   .barDiv {
     display: block;
     position: absolute;
-    top: 50px;
-    right: 0;
+    top: 150px;
+    right: 100px;
     width: 300px;
     height: auto;
     background-color: #4079ac;
