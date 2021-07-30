@@ -398,7 +398,7 @@ form:hover {
     display: block;
     font-size: 30px;
     border: none;
-
+    padding-right: 2rem;
     cursor: pointer;
   }
   .barDiv {

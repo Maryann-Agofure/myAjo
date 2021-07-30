@@ -2,13 +2,12 @@ const header = document.querySelector('.header-class')
 
 
 function createBar(){
-  if(body.style.width <= '700px'){
+  
     const barMenu = document.createElement('span')
     barMenu.innerHTML = `<span><i class="fas fa-bars bar-menu"></i></span>`
 header.appendChild(barMenu)
 barMenu.style.display = 'block'
-return 
-  }
+
 }
 createBar()
 
